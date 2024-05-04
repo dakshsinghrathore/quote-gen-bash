@@ -27,3 +27,4 @@ elif [ "$response" == "no" ]; then
     sleep 2
     echo "${ARRAY[$RANDOM%8]}"
 fi
+
