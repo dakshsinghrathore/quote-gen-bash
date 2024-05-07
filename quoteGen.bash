@@ -17,7 +17,7 @@ sleep 2
 echo "Nice name $name, wanna read a wonderful quote today? [yes/no]"
 read response
 
-if [ "$response" == "yes" ]; then
+if [ "$response" == "yes" ]; then  #string comparison meh yaad rakho, == lagana hoga instead of "eq" 
     echo "Great! Kindly choose a number between 0 and 7"
     read number
     sleep 2
